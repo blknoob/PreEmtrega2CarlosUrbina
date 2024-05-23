@@ -25,6 +25,10 @@ footer ul a {
   display: flex;
   color: rgb(79, 79, 82);
 }
+.boton {
+  background-color: aqua;
+  border-radius: 100%;
+}
 
 p {
   font-size: 14px;
