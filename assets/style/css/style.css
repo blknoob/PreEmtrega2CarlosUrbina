@@ -1,65 +1,227 @@
 body {
-  margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 150px;
-  /* background-color: #d6f8e4; */
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(204, 210, 211);
 }
 
-nav ul a {
-  background-color: rgb(161, 174, 190);
-  color: rgb(51, 51, 51);
-  border-radius: 2px;
-  text-decoration-line: none; 
-  margin-left: 20px;  
+.header {
+  height: 30vh;
+  background-image: url(./../../multimedia/images/paisajeUp.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 20vh auto 20vh;
+  grid-template-areas: "logo title iconos";
+  align-items: center;
 }
-
-nav {
-  overflow:hidden;
-  margin-left: 180px;
-}
-
-
-footer ul a {
-  text-decoration-line: none;
-  display: flex;
-  color: rgb(79, 79, 82);
-}
-.boton {
-  background-color: aqua;
+.header .logoSok {
+  width: 8vw;
   border-radius: 100%;
+  box-shadow: 0 0 50px black;
+  grid-area: logo;
+  display: flex;
+  margin: auto;
+}
+.header .title {
+  color: rgb(211, 208, 208);
+  text-shadow: 0 0 10px black;
+  grid-area: title;
+}
+.header .title .cursiva {
+  font-size: xx-large;
+  color: #5e5e5e;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.header .iconosUp {
+  grid-area: iconos;
+  margin: auto;
+}
+.header .iconosUp .iconosUl {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+}
+.header .iconosUp .iconosUl .iconosLi {
+  padding: 10px;
+}
+.header .iconosUp .iconosUl .linkIcono .iconoRightUp {
+  width: 2.2vw;
 }
 
-p {
-  font-size: 14px;
+.productosMain.row .contenedorProductoMain.col-md-6.col-12 .linkProductoMain {
+  display: flex;
+}
+.productosMain.row .contenedorProductoMain.col-md-6.col-12 .linkProductoMain .imagenProductoMain {
+  width: 49vw;
+  height: 49vh;
+  padding: 1vh;
+  border-radius: 20px;
+  margin: 6px auto;
+}
+.productosMain.row .contenedorProductoMain.col-md-6.col-12 .descripProductoMain {
+  margin: 10px;
+  background-color: rgb(121, 145, 151);
+  padding: 7px;
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  text-shadow: 0 0 10px white;
+  border-radius: 10px;
+  box-shadow: 0 0 7px black;
 }
 
-.logo {
-  border-radius: 300px;
-width: 100px;
-height: 100px;
+.productosSec.row .contenedorProductoSec.col-md-6.col-12 .linkProductoSec {
+  display: flex;
+}
+.productosSec.row .contenedorProductoSec.col-md-6.col-12 .linkProductoSec .imagenProductoSec {
+  width: 45vw;
+  height: 45vh;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 20px;
+}
+.productosSec.row .contenedorProductoSec.col-md-6.col-12 .descripProductoSec {
+  margin-left: 30px;
+  background-color: rgb(121, 145, 151);
+  padding: 7px;
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  text-shadow: 0 0 10px white;
+  border-radius: 10px;
+  box-shadow: 0 0 7px black;
 }
 
-i {
-  font-size: 23px;
+.footer {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  grid-template-areas: "footerUpL footerUpR" "footerUnL footerUnR";
 }
-
-main div {
-margin: 70px 50px 70px 50px;
- display: inline-block; 
-position: relative;
-}
-
-.articulo {
-  width: 220px;
-  height: 220px;
-  border-radius: 40px;
-}
-
-header img,h1,form {
+.footer .footerLeft .ulFooterLeft {
+  margin-top: 50px;
+  grid-area: footerUpL;
   display: inline-block;
 }
-
-header {
-flex-wrap: wrap;
+.footer .footerLeft .ulFooterLeft .h5footer {
+  color: black;
 }
+.footer .footerLeft .ulFooterLeft .linkfooterleft {
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+.footer .footerRight {
+  display: inline-block;
+  margin: 50px auto;
+  grid-area: footerUpR;
+}
+.footer .footerRight .pFooter {
+  color: black;
+  margin: 0px;
+  font-size: small;
+}
+.footer .footerRight iframe {
+  width: 25vw;
+  height: 25vh;
+}
+.footer .footerUnder {
+  grid-area: footerUnL;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.footer .footerUnder .formEmail .form-label {
+  color: black;
+}
+.footer .footerUnder .formEmail #emailHelp.form-text {
+  color: black;
+}
+.footer .footerUnderRight {
+  grid-area: footerUnR;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footerUnderRight .btn.btn-light.iconSociales {
+  width: 45px;
+  height: 45px;
+  padding: 0px;
+  margin: 20px;
+  background-color: rgb(165, 164, 164);
+}
+.footer .footerUnderRight .btn.btn-light.iconSociales svg {
+  width: 35px;
+  height: 35px;
+  padding: 0px;
+}
+
+.main .h3Main {
+  margin: 20px;
+  text-shadow: 0 0 2px black;
+  background-color: white;
+  padding: 8px;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: x-large;
+}
+.main .videosGiras.row {
+  display: flex;
+  justify-content: center;
+}
+.main .videosGiras.row .videoMotivacion.col-sm-6.col-12 {
+  width: 47vw;
+  padding: 20px;
+}
+
+.gribCasco.row {
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  margin: 15px auto;
+  background-color: white;
+}
+.gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto {
+  display: flex;
+  align-content: end;
+}
+.gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto a {
+  color: black;
+  text-decoration: none;
+}
+.gribLentes.row {
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  margin: 15px auto;
+  background-color: white;
+}
+.gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto {
+  display: flex;
+  align-content: end;
+}
+.gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto a {
+  color: black;
+  text-decoration: none;
+}
+.gribGuantes.row {
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  margin: 15px auto;
+  background-color: white;
+}
+.gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto {
+  display: flex;
+  align-content: end;
+}
+.gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto a {
+  color: black;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
