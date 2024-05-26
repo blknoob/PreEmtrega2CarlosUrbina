@@ -395,9 +395,15 @@ body {
   }
   .gribCasco.row {
     width: 60vw;
-    height: 40vh;
+    height: 90vh;
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-content: space-around;
+  }
+  .gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 {
+    width: 90vw;
     display: inline-block;
-    margin-left: 50px;
   }
   .gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto {
     display: inline-block;
@@ -406,13 +412,20 @@ body {
   .gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto a {
     color: black;
     text-decoration: none;
+    background-color: rgb(170, 177, 177);
+    border-radius: 10px;
   }
   .gribLentes.row {
-    width: 50vw;
-    height: 50vh;
+    width: 60vw;
+    height: 90vh;
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-content: space-around;
+  }
+  .gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 {
+    width: 90vw;
     display: inline-block;
-    align-items: center;
-    margin: 15px auto;
   }
   .gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto {
     display: flex;
@@ -421,13 +434,20 @@ body {
   .gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto a {
     color: black;
     text-decoration: none;
+    background-color: rgb(170, 177, 177);
+    border-radius: 10px;
   }
   .gribGuantes.row {
-    width: 50vw;
-    height: 50vh;
+    width: 60vw;
+    height: 90vh;
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-content: space-around;
+  }
+  .gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 {
+    width: 90vw;
     display: inline-block;
-    align-items: center;
-    margin: 15px auto;
   }
   .gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto {
     display: flex;
@@ -436,7 +456,27 @@ body {
   .gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto a {
     color: black;
     text-decoration: none;
+    background-color: rgb(170, 177, 177);
+    border-radius: 10px;
   }
+}
+.flexProductos.row-3 .noResponsiveProducto.col-12 {
+  text-align: center;
+}
+.flexProductos.row-3 .noResponsiveProducto.col-12 .boxArticulo .noResponsiveArticulo {
+  width: 27vw;
+  border-radius: 4px;
+  box-shadow: 0 0 5px black;
+}
+.flexProductos.row-3 .noResponsiveProducto.col-12 .boxDescrip {
+  margin: 10px;
+}
+.flexProductos.row-3 .noResponsiveProducto.col-12 .boxDescrip .noResponsiveDescrip {
+  background-color: #a1a1a1;
+  text-decoration: none;
+  color: black;
+  border-radius: 4px;
+  padding: 3px;
 }
 
 /*# sourceMappingURL=style.css.map */
