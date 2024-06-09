@@ -1,0 +1,107 @@
+
+.productosMain.row {
+  .contenedorProductoMain.col-md-6.col-12 {
+    .linkProductoMain {
+      display: flex;
+      .imagenProductoMain {
+        width: 49vw;
+        height: 49vh;
+        padding: 1vh;
+        border-radius: 20px;
+        margin: 6px auto;
+      }
+    }
+    .descripProductoMain {
+      margin: 10px;
+      background-color: rgb(121, 145, 151);
+      padding: 7px;
+      text-decoration: none;
+      color: black;
+      font-size: large;
+      text-shadow: 0 0 10px white;
+      border-radius: 10px;
+      box-shadow: 0 0 7px black;
+    }
+  }
+}
+.productosSec.row {
+  .contenedorProductoSec.col-md-6.col-12 {
+    .linkProductoSec {
+      display: flex;
+      .imagenProductoSec {
+        width: 45vw;
+        height: 45vh;
+        margin: 20px auto;
+        padding: 10px;
+        border-radius: 20px;
+      }
+    }
+    .descripProductoSec {
+      margin-left: 30px;
+      background-color: rgb(121, 145, 151);
+      padding: 7px;
+      text-decoration: none;
+      color: black;
+      font-size: large;
+      text-shadow: 0 0 10px white;
+      border-radius: 10px;
+      box-shadow: 0 0 7px black;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .productosMain.row {
+    .contenedorProductoMain.col-md-6.col-12 {
+      .linkProductoMain {
+        display: flex;
+        .imagenProductoMain {
+          width: 80vw;
+          height: 25vh;
+          padding: 1vh;
+          border-radius: 20px;
+          margin: 6px auto;
+        }
+      }
+      .descripProductoMain {
+        margin-top: 10px;
+        margin-left: 35px;
+        background-color: rgb(121, 145, 151);
+        padding: 3px;
+        text-decoration: none;
+        color: black;
+        font-size: medium;
+        text-shadow: 0 0 10px white;
+        border-radius: 10px;
+        box-shadow: 0 0 7px black;
+      }
+    }
+  }
+
+  .productosSec.row {
+    .contenedorProductoSec.col-md-6.col-12 {
+      .linkProductoSec {
+        display: flex;
+        .imagenProductoSec {
+          width: 65vw;
+          height: 23vh;
+          margin: 20px auto;
+          // padding: 10px;
+          border-radius: 20px;
+        }
+      }
+      .descripProductoSec {
+        margin-top: 10px;
+        margin-left: 70px;
+        background-color: rgb(121, 145, 151);
+        padding: 3px;
+        text-decoration: none;
+        color: black;
+        font-size: medium;
+        text-shadow: 0 0 10px white;
+        border-radius: 10px;
+        box-shadow: 0 0 7px black;
+      }
+    }
+  }
+}

@@ -1,0 +1,154 @@
+
+.footer {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  grid-template-areas:
+    "footerUpL footerUpR"
+    "footerUnL footerUnR";
+
+  .footerLeft {
+    .ulFooterLeft {
+      margin-top: 50px;
+      grid-area: footerUpL;
+      display: inline-block;
+      .h5footer {
+        color: black;
+      }
+      .linkfooterleft {
+        display: flex;
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+  .footerRight {
+    display: inline-block;
+    margin: 50px auto;
+
+    grid-area: footerUpR;
+    .pFooter {
+      color: black;
+      margin: 0px;
+      font-size: small;
+    }
+    iframe {
+      width: 25vw;
+      height: 25vh;
+    }
+  }
+  .footerUnder {
+    grid-area: footerUnL;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    .formEmail {
+      .form-label {
+        color: black;
+      }
+      #emailHelp.form-text {
+        color: black;
+      }
+    }
+  }
+  .footerUnderRight {
+    grid-area: footerUnR;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .btn.btn-light.iconSociales {
+      width: 45px;
+
+      height: 45px;
+      padding: 0px;
+      margin: 20px;
+      background-color: rgb(165, 164, 164);
+
+      svg {
+        width: 35px;
+        height: 35px;
+        padding: 0px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+  .footer {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "footerUpL" "footerUpR"
+      "footerUnL" "footerUnR";
+    justify-content: center;
+    justify-items: center;
+    row-gap: 10px;
+    .footerLeft {
+      .ulFooterLeft {
+        // margin-top: 50px;
+        grid-area: footerUpL;
+        display: inline-block;
+        .h5footer {
+          color: black;
+        }
+        .linkfooterleft {
+          display: flex;
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+    .footerRight {
+      display: inline-block;
+      grid-area: footerUpR;
+
+      .pFooter {
+        color: black;
+        margin: 0px;
+        font-size: small;
+      }
+      iframe {
+        width: 50vw;
+        height: 15vh;
+      }
+    }
+    .footerUnder {
+      display: inline-block;
+      grid-area: footerUnL;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      margin-left: auto;
+      margin-right: auto;
+
+      .formEmail {
+        .form-label {
+          color: black;
+        }
+        #emailHelp.form-text {
+          color: black;
+        }
+      }
+    }
+    .footerUnderRight {
+      grid-area: footerUnR;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .btn.btn-light.iconSociales {
+        width: 45px;
+
+        height: 45px;
+        padding: 0px;
+        margin: 20px;
+        background-color: rgb(165, 164, 164);
+
+        svg {
+          width: 35px;
+          height: 35px;
+          padding: 0px;
+        }
+      }
+    }
+  }
+}

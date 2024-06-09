@@ -1,0 +1,178 @@
+
+.main {
+  .h3Main {
+    margin: 20px;
+    text-shadow: 0 0 2px black;
+    background-color: white;
+    padding: 8px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: x-large;
+  }
+  .videosGiras.row {
+    display: flex;
+    justify-content: center;
+    .videoMotivacion.col-sm-6.col-12 {
+      width: 47vw;
+      padding: 20px;
+    }
+  }
+}
+
+.gribCasco.row {
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  margin: 15px auto;
+  background-color: white;
+
+  .boxGribProducto.col-lg-4.col-md-4.col-sm-12 {
+    .especGribProducto {
+      display: flex;
+      align-content: end;
+      a {
+        color: black;
+        text-decoration: none;
+      }
+    }
+  }
+}
+.gribLentes.row {
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  margin: 15px auto;
+  background-color: white;
+  .boxGribProducto.col-lg-4.col-md-4.col-sm-12 {
+    .especGribProducto {
+      display: flex;
+      align-content: end;
+      a {
+        color: black;
+        text-decoration: none;
+      }
+    }
+  }
+}
+.gribGuantes.row {
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  margin: 15px auto;
+  background-color: white;
+
+  .boxGribProducto.col-lg-4.col-md-4.col-sm-12 {
+    .especGribProducto {
+      display: flex;
+      align-content: end;
+      a {
+        color: black;
+
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+// Media queries inicio
+@media screen and (max-width: 768px) {
+  
+
+  
+
+  .main {
+    .h3Main {
+      margin: 20px;
+      text-shadow: 0 0 2px black;
+      background-color: white;
+      padding: 3px;
+      display: inline-block;
+      border-radius: 7px;
+      font-size: medium;
+    }
+    .videosGiras.row {
+      display: flex;
+      justify-content: center;
+      .videoMotivacion.col-sm-6.col-12 {
+        width: 90vw;
+        padding: 20px;
+      }
+    }
+  }
+
+  .gribCasco.row {
+    width: 60vw;
+    height: 90vh;
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-content: space-around;
+
+    .boxGribProducto.col-lg-4.col-md-4.col-sm-12 {
+      width: 90vw;
+      display: inline-block;
+
+      .especGribProducto {
+        display: inline-block;
+        align-content: end;
+        a {
+          color: black;
+          text-decoration: none;
+          background-color: rgb(170, 177, 177);
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+  .gribLentes.row {
+    width: 60vw;
+    height: 90vh;
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-content: space-around;
+
+    .boxGribProducto.col-lg-4.col-md-4.col-sm-12 {
+      width: 90vw;
+      display: inline-block;
+      .especGribProducto {
+        display: flex;
+        align-content: end;
+        a {
+          color: black;
+          text-decoration: none;
+          background-color: rgb(170, 177, 177);
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+  .gribGuantes.row {
+    width: 60vw;
+    height: 90vh;
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-content: space-around;
+
+    .boxGribProducto.col-lg-4.col-md-4.col-sm-12 {
+      width: 90vw;
+      display: inline-block;
+      .especGribProducto {
+        display: flex;
+        align-content: end;
+        a {
+          color: black;
+          text-decoration: none;
+          background-color: rgb(170, 177, 177);
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+  
+}
+// fin media queries max-768
