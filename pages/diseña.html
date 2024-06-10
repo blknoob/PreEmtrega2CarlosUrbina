@@ -41,7 +41,7 @@
             <a class="nav-link active" aria-current="page" href="./equipamiento.html">Equipamiento</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./componentes.html">Componentes</a>
+            <a class="nav-link active" aria-current="page" href="./diseña.html">Diseña tu bici</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="./mantencion.html">Mantención</a>
@@ -60,50 +60,96 @@
   </nav>
 
   <main class="main">
-    <h3 class="h3Main">Componentes</h3>
-    <div class="videosGiras row">
-      <video src="./../assets/multimedia/videos/Untitled video2 - Made with Clipchamp.mp4"
-        class="videoMotivacion  col-sm-6 col-12" controls></video>
-      <video src="./../assets/multimedia/videos/🔥Motivación🚴🏼 Ciclismo, el maravilloso arte del sufrimiento.mp4"
-        class="videoMotivacion  col-sm-6 col-12" controls></video>
-    </div>
+    <h3 class="h3Main">Diseña tu bici</h3>
 
+    <h5 class="h5Main">Elige tipo de bicicleta</h5>
+    <dix class="boxBici">
+      <div class="tipoBici"><input type="radio" name="ruta" class="radio"><img
+          src="https://www.labo-velo.es/6057-thickbox_default/bicicleta-de-carretera-bmc-teammachine-02-one-blanco-negro-2020.jpg"
+          alt="Bicicleta de ruta" class="imgBiciMain"><label class="labelElige">Bicicleta de ruta</label></div>
+      <div class="tipoBici"><input type="radio" name="ruta" class="radio"><img
+          src="https://static.vecteezy.com/system/resources/previews/002/653/157/non_2x/white-mountain-bike-isolated-on-white-background-free-photo.jpg"
+          alt="Bicicleta de montaña" class="imgBiciMain"><label class="labelElige">Bicicleta de montaña</label></div>
+      <div class="tipoBici"><input type="radio" name="ruta" class="radio"><img
+          src="https://tse2.mm.bing.net/th?id=OIP.HHq6nUVpmvC8g-JJOW-XPwHaE-&pid=Api&P=0&h=180" alt="Bicicleta de paseo"
+          class="imgBiciMain"><label class="labelElige">Bicicleta de paseo</label>
+      </div>
+    </dix>
   </main>
 
-  <section class="flexProductos row-3">
-    <div class="noResponsiveProducto col-12">
-      <div class="boxArticulo">
-        <img class="noResponsiveArticulo" src="https://m.media-amazon.com/images/I/51-+mwKxzxL._AC_SX466_.jpg"
-          alt="Llanta bicicleta" />
+  <section class="accesoriosBici">
+    <h5 class="h5Main">Talla</h5>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input radio" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+      <label class="form-check-label" for="inlineRadio1">S</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input radio" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <label class="form-check-label" for="inlineRadio2">M</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input radio" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <label class="form-check-label" for="inlineRadio2">L</label>
+    </div>
+
+    <h5 class="h5Main">Color</h5>
+    <label for="exampleColorInput" class="form-label">Contamos con una alta gama de colores, elige el tuyo:</label>
+    <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c"
+      title="Choose your color">
+
+    <h5 class="h5Main">Tipos de frenos</h5>
+    <div class="boxFrenos">
+      <div class="tipoBici"><input type="radio" name="frenos" class="radio"><img
+          src="https://media.onvelocycling.com/c/product/serie-4-frenos-vbrake-aluminio-110-mm-negro-satinado-520x520.jpg"
+          alt="Freno V-Brake" class="imgAccesorio"><label class="labelElige">V-brake</label></div>
+      <div class="tipoBici"><input type="radio" name="frenos" class="radio"><img
+          src="https://tienda.benotto.com/images/Producto/71746/Horquilla-para-Freno-SUNRACE-Ruta-BCR81-DelanteraTrasera-Negro-Cajita-1-21518.jpg"
+          alt="Freno de horquilla" class="imgAccesorio"><label class="labelElige">Horquilla</label></div>
+      <div class="tipoBici"><input type="radio" name="frenos" class="radio"><img
+          src="https://www.topbici.es/wp-content/uploads/2015/04/shimano-105-disc.jpg" alt="Freno de disco"
+          class="imgAccesorio"><label class="labelElige">Disco</label>
       </div>
-      <div class="boxDescrip">
-        <a href="#" class="noResponsiveDescrip">Llantas bicileta</a>
+    </div>
+    <h5 class="h5Main">Plato</h5>
+    <div class="boxPlatos">
+      <div class="tipoBici"><input type="radio" name="platos" class="radio"><img
+          src="https://pedaleaconciencia.com/wp-content/uploads/Monoplato-shimano-XT.jpeg" alt="Monoplato"
+          class="imgAccesorio"><label class="labelElige">Monoplato</label></div>
+      <div class="tipoBici"><input type="radio" name="platos" class="radio"><img
+          src="https://http2.mlstatic.com/D_NQ_NP_2X_968889-MCO32820462555_112019-F.jpg" alt="Doblepleto"
+          class="imgAccesorio"><label class="labelElige">Doble plato</label></div>
+      <div class="tipoBici"><input type="radio" name="platos" class="radio"><img
+          src="https://images-na.ssl-images-amazon.com/images/I/51BULzJPJQL._AC_UL600_SR600,600_.jpg" alt="Tripleplato"
+          class="imgAccesorio"><label class="labelElige">Triple plato</label>
+      </div>
+    </div>
+    <h5 class="h5Main">Piñones</h5>
+    <div class="tipoBici">
+      <img
+        src="https://www.sumitate.com.uy/img/articulos/pinon_de_bicicleta_de_ruta_sram_pc1130_11_26_11_velocidades_imagen1.jpg"
+        alt="Piñones de bicicleta" class="imgPinon"><label class="labelElige"></label>
+      <select class="form-select-16px cantidadPinon" aria-label="Default select example">
+        <option selected>Cantidad de piñones;</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">4</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
+      <div class="boton">
+        <button type="button" class="solicitar">Solicitar</button>
       </div>
 
     </div>
-    <div class="noResponsiveProducto col-12">
-      <div class="boxArticulo">
-        <img class="noResponsiveArticulo" src="https://http2.mlstatic.com/D_NQ_NP_759531-MLA49243282379_032022-V.jpg"
-          alt="Kit de transmision" />
-      </div>
-      <div class="boxDescrip">
-        <a href="#" class="noResponsiveDescrip">Kit de transmision</a>
-      </div>
 
-    </div>
-    <div class="noResponsiveProducto col-12">
-      <div class="boxArticulo">
-        <img class="noResponsiveArticulo"
-          src="https://tse3.mm.bing.net/th?id=OIP.l5Bok6cKw0kdd4T3On1abwAAAA&pid=Api&P=0&h=180"
-          alt="Manubrio bicicleta" />
-      </div>
-      <div class="boxDescrip">
-        <a href="#" class="noResponsiveDescrip">Manubrio</a>
-      </div>
-
-    </div>
   </section>
-
 
   <!-- FOOTER-->
 
