@@ -1,5 +1,5 @@
-
 .footer {
+  margin-top: 100px;
   display: grid;
   grid-template-rows: auto auto;
   grid-template-columns: auto auto;
@@ -74,7 +74,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  
   .footer {
     display: grid;
     grid-template-rows: auto auto auto auto;
@@ -83,11 +82,15 @@
       "footerUpL" "footerUpR"
       "footerUnL" "footerUnR";
     justify-content: center;
-    justify-items: center;
+    justify-items: start;
     row-gap: 10px;
+    padding: 0px;
+    margin: 0px;
+    
     .footerLeft {
       .ulFooterLeft {
-        // margin-top: 50px;
+        margin: 0px;
+        padding: 0px;
         grid-area: footerUpL;
         display: inline-block;
         .h5footer {
@@ -117,10 +120,7 @@
     .footerUnder {
       display: inline-block;
       grid-area: footerUnL;
-      margin-left: 20px;
-      margin-bottom: 20px;
-      margin-left: auto;
-      margin-right: auto;
+      margin: 0px;
 
       .formEmail {
         .form-label {
@@ -133,21 +133,17 @@
     }
     .footerUnderRight {
       grid-area: footerUnR;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+
       .btn.btn-light.iconSociales {
         width: 45px;
-
         height: 45px;
-        padding: 0px;
-        margin: 20px;
         background-color: rgb(165, 164, 164);
 
         svg {
           width: 35px;
           height: 35px;
-          padding: 0px;
         }
       }
     }

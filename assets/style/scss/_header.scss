@@ -32,6 +32,8 @@
   .iconosUp {
     grid-area: iconos;
     margin: auto;
+    position: relative;
+    top: -45px;
     .iconosUl {
       display: flex;
       list-style: none;
@@ -78,6 +80,9 @@
     .iconosUp {
       grid-area: iconos;
       margin: auto;
+      position: static;
+           
+      
       .iconosUl {
         display: flex;
         list-style: none;

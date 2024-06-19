@@ -1,4 +1,3 @@
-
 .main {
   .h3Main {
     margin: 20px;
@@ -9,15 +8,24 @@
     border-radius: 10px;
     font-size: x-large;
   }
-  .videosGiras.row {
+  .videosGiras {
     display: flex;
     justify-content: center;
-    .videoMotivacion.col-sm-6.col-12 {
-      width: 47vw;
+    gap: 50px;
+    
+    .videoMotivacion {
+      width: 35vw;
       padding: 20px;
+      box-shadow: 0 0 15px black;
+      border-radius: 20px;
+      padding: 0px;
+      
     }
   }
 }
+
+
+
 
 .gribCasco.row {
   width: 80vw;
@@ -79,10 +87,6 @@
 
 // Media queries inicio
 @media screen and (max-width: 768px) {
-  
-
-  
-
   .main {
     .h3Main {
       margin: 20px;
@@ -173,6 +177,5 @@
       }
     }
   }
-  
 }
 // fin media queries max-768
