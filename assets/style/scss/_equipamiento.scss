@@ -12,74 +12,276 @@
     display: flex;
     justify-content: center;
     gap: 50px;
-    
+
     .videoMotivacion {
-      width: 35vw;
+      width: 37vw;
       padding: 20px;
       box-shadow: 0 0 15px black;
       border-radius: 20px;
       padding: 0px;
-      
     }
   }
 }
 
-
-
-
 .gribCasco.row {
   width: 80vw;
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  margin: 15px auto;
-  background-color: white;
+  margin: auto;
 
   .boxGribProducto.col-lg-4.col-md-4.col-sm-12 {
+    padding: 40px;
+    #cascoCarrusel3.carousel.carousel-dark.slide {
+      .carousel-inner.siceImg {
+        height: 33vh;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 0 10px black;
+      }
+
+      .carousel-item.active {
+        width: 20vw;
+        padding: 20px 0px 0px 30px;
+      }
+      .d-block.w-100.imgCarrusel {
+        height: 28vh;
+      }
+      .carousel-item.siceImg {
+        width: 20vw;
+        padding: 20px 0px 0px 30px;
+        .d-block.w-100.imgCarrusel {
+          height: 28vh;
+        }
+      }
+    }
+    #cascoCarrusel2.carousel.carousel-dark.slide {
+      .carousel-inner {
+        height: 33vh;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 0 10px black;
+      }
+
+      .carousel-item.active {
+        width: 18vw;
+        padding: 20px 0px 0px 30px;
+
+        .d-block.w-100.imgCarrusel {
+          height: 28vh;
+        }
+      }
+      .carousel-item {
+        width: 18vw;
+        padding: 20px 0px 0px 30px;
+
+        .d-block.w-100.imgCarrusel {
+          height: 28vh;
+        }
+      }
+    }
+    #cascoCarrusel1.carousel.carousel-dark.slide {
+      .carousel-inner {
+        height: 33vh;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 0 10px black;
+      }
+
+      .carousel-item.active {
+        width: 18vw;
+        padding: 20px 0px 0px 30px;
+        .d-block.w-100.imgCarrusel {
+          height: 28vh;
+        }
+      }
+      .carousel-item {
+        width: 18vw;
+        padding: 20px 0px 0px 30px;
+        .d-block.w-100.imgCarrusel {
+          height: 28vh;
+        }
+      }
+    }
     .especGribProducto {
-      display: flex;
-      align-content: end;
-      a {
-        color: black;
+      padding: 15px;
+      .descripEquip {
         text-decoration: none;
+        color: black;
+        font-size: medium;
+        text-shadow: 0 0 10px white;
+        font-weight: 700;
       }
     }
   }
 }
 .gribLentes.row {
   width: 80vw;
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  margin: 15px auto;
-  background-color: white;
+  margin: auto;
   .boxGribProducto.col-lg-4.col-md-4.col-sm-12 {
+    padding: 40px;
+    #lentesCarrusel3.carousel.carousel-dark.slide {
+      .carousel-inner {
+        height: 33vh;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 0 10px black;
+      }
+
+      .carousel-item.active {
+        width: 20vw;
+        padding: 20px 0px 0px 30px;
+        .d-block.w-100.imgCarrusel {
+          height: 28vh;
+        }
+      }
+      .carousel-item {
+        width: 20vw;
+        padding: 20px 0px 0px 30px;
+        .d-block.w-100.imgCarrusel {
+          height: 28vh;
+        }
+      }
+    }
+    #lentesCarrusel2.carousel.carousel-dark.slide {
+      .carousel-inner {
+        height: 33vh;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 0 10px black;
+      }
+
+      .carousel-item.active {
+        width: 20vw;
+        padding: 20px 0px 0px 30px;
+        .d-block.w-100.imgCarrusel {
+          height: 28vh;
+        }
+      }
+      .carousel-item {
+        width: 20vw;
+        padding: 20px 0px 0px 30px;
+        .d-block.w-100.imgCarrusel {
+          height: 28vh;
+        }
+      }
+    }
+    #lentesCarrusel1.carousel.carousel-dark.slide {
+      .carousel-inner {
+        height: 33vh;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 0 10px black;
+      }
+
+      .carousel-item.active {
+        width: 20vw;
+        padding: 20px 0px 0px 30px;
+        .d-block.w-100.imgCarrusel {
+          height: 28vh;
+        }
+      }
+      .carousel-item {
+        width: 20vw;
+        padding: 20px 0px 0px 30px;
+        .d-block.w-100.imgCarrusel {
+          height: 28vh;
+        }
+      }
+    }
     .especGribProducto {
-      display: flex;
-      align-content: end;
-      a {
-        color: black;
+      padding: 15px;
+      .descripEquip {
         text-decoration: none;
+        color: black;
+        font-size: medium;
+        text-shadow: 0 0 10px white;
+        font-weight: 700;
       }
     }
   }
 }
 .gribGuantes.row {
   width: 80vw;
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  margin: 15px auto;
-  background-color: white;
-
+  margin: auto;
   .boxGribProducto.col-lg-4.col-md-4.col-sm-12 {
-    .especGribProducto {
-      display: flex;
-      align-content: end;
-      a {
-        color: black;
+    padding: 40px;
+    #guantesCarrusel3.carousel.carousel-dark.slide {
+      .carousel-inner {
+        height: 33vh;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 0 10px black;
+      }
 
+      .carousel-item.active {
+        width: 20vw;
+        padding: 20px 0px 0px 30px;
+        .d-block.w-100.imgCarrusel {
+          height: 28vh;
+        }
+      }
+      .carousel-item {
+        width: 20vw;
+        padding: 20px 0px 0px 30px;
+        .d-block.w-100.imgCarrusel {
+          height: 28vh;
+        }
+      }
+    }
+    #guantesCarrusel2.carousel.carousel-dark.slide {
+      .carousel-inner {
+        height: 33vh;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 0 10px black;
+      }
+
+      .carousel-item.active {
+        width: 16vw;
+        padding: 20px 0px 0px 30px;
+        margin-left: 30px;
+        .d-block.w-100.imgCarrusel {
+          height: 24vh;
+        }
+      }
+      .carousel-item {
+        width: 16vw;
+        padding: 20px 0px 0px 30px;
+        margin-left: 30px;
+        .d-block.w-100.imgCarrusel {
+          height: 24vh;
+        }
+      }
+    }
+    #guantesCarrusel1.carousel.carousel-dark.slide {
+      .carousel-inner {
+        height: 33vh;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 0 10px black;
+      }
+
+      .carousel-item.active {
+        width: 20vw;
+        padding: 20px 0px 0px 30px;
+        .d-block.w-100.imgCarrusel {
+          height: 28vh;
+        }
+      }
+      .carousel-item {
+        width: 20vw;
+        padding: 20px 0px 0px 30px;
+        .d-block.w-100.imgCarrusel {
+          height: 28vh;
+        }
+      }
+    }
+    .especGribProducto {
+      padding: 15px;
+      .descripEquip {
         text-decoration: none;
+        color: black;
+        font-size: medium;
+        text-shadow: 0 0 10px white;
+        font-weight: 700;
       }
     }
   }
@@ -88,91 +290,250 @@
 // Media queries inicio
 @media screen and (max-width: 768px) {
   .main {
-    .h3Main {
-      margin: 20px;
-      text-shadow: 0 0 2px black;
-      background-color: white;
-      padding: 3px;
-      display: inline-block;
-      border-radius: 7px;
-      font-size: medium;
-    }
-    .videosGiras.row {
+    .videosGiras {
       display: flex;
-      justify-content: center;
-      .videoMotivacion.col-sm-6.col-12 {
-        width: 90vw;
-        padding: 20px;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+
+      .videoMotivacion {
+        width: 85vw;
       }
     }
   }
 
   .gribCasco.row {
-    width: 60vw;
-    height: 90vh;
-    display: flex;
-    background-color: transparent;
-    justify-content: center;
-    align-content: space-around;
+    width: 75vw;
+    margin: auto;
 
     .boxGribProducto.col-lg-4.col-md-4.col-sm-12 {
-      width: 90vw;
-      display: inline-block;
+      padding: 25px;
+      #cascoCarrusel3.carousel.carousel-dark.slide {
+        .carousel-inner.siceImg {
+          height: 27vh;
+        }
 
-      .especGribProducto {
-        display: inline-block;
-        align-content: end;
-        a {
-          color: black;
-          text-decoration: none;
-          background-color: rgb(170, 177, 177);
-          border-radius: 10px;
+        .carousel-item.active {
+          width: 60vw;
+          padding: 0px;
+        }
+        .d-block.w-100.imgCarrusel {
+          height: 27vh;
+        }
+        .carousel-item.siceImg {
+          width: 60vw;
+          padding: 0px;
+          .d-block.w-100.imgCarrusel {
+            height: 27vh;
+          }
+        }
+      }
+      #cascoCarrusel2.carousel.carousel-dark.slide {
+        .carousel-inner {
+          height: 27vh;
+        }
+
+        .carousel-item.active {
+          width: 40vw;
+          padding: 0px;
+          margin-left: 50px;
+          margin-top: 30px;
+
+          .d-block.w-100.imgCarrusel {
+            height: 20vh;
+          }
+        }
+        .carousel-item {
+          width: 40vw;
+          padding: 0px;
+          margin-left: 50px;
+          margin-top: 30px;
+
+          .d-block.w-100.imgCarrusel {
+            height: 20vh;
+          }
+        }
+      }
+      #cascoCarrusel1.carousel.carousel-dark.slide {
+        .carousel-inner {
+          height: 27vh;
+        }
+
+        .carousel-item.active {
+          width: 40vw;
+          padding: 0px;
+          margin-left: 50px;
+          margin-top: 30px;
+          .d-block.w-100.imgCarrusel {
+            height: 20vh;
+          }
+        }
+        .carousel-item {
+          width: 40vw;
+          padding: 0px;
+          margin-left: 50px;
+          margin-top: 30px;
+          .d-block.w-100.imgCarrusel {
+            height: 20vh;
+          }
         }
       }
     }
   }
   .gribLentes.row {
-    width: 60vw;
-    height: 90vh;
-    display: flex;
-    background-color: transparent;
-    justify-content: center;
-    align-content: space-around;
-
+    width: 75vw;
+    margin: auto;
     .boxGribProducto.col-lg-4.col-md-4.col-sm-12 {
-      width: 90vw;
-      display: inline-block;
-      .especGribProducto {
-        display: flex;
-        align-content: end;
-        a {
-          color: black;
-          text-decoration: none;
-          background-color: rgb(170, 177, 177);
-          border-radius: 10px;
+      padding: 25px;
+      #lentesCarrusel3.carousel.carousel-dark.slide {
+        .carousel-inner {
+          height: 27vh;
+        }
+
+        .carousel-item.active {
+          width: 43vw;
+          padding: 0px;
+          margin-left: 50px;
+          margin-top: 30px;
+          .d-block.w-100.imgCarrusel {
+            height: 20vh;
+          }
+        }
+        .carousel-item {
+          width: 43vw;
+          padding: 0px;
+          margin-left: 50px;
+          margin-top: 30px;
+          .d-block.w-100.imgCarrusel {
+            height: 20vh;
+          }
+        }
+      }
+      #lentesCarrusel2.carousel.carousel-dark.slide {
+        .carousel-inner {
+          height: 27vh;
+        }
+
+        .carousel-item.active {
+          width: 44vw;
+          padding: 0px;
+          margin-left: 50px;
+          margin-top: 30px;
+          .d-block.w-100.imgCarrusel {
+            height: 25vh;
+          }
+        }
+        .carousel-item {
+          width: 44vw;
+          padding: 0px;
+          margin-left: 50px;
+          margin-top: 30px;
+          .d-block.w-100.imgCarrusel {
+            height: 25vh;
+          }
+        }
+      }
+      #lentesCarrusel1.carousel.carousel-dark.slide {
+        .carousel-inner {
+          height: 27vh;
+        }
+
+        .carousel-item.active {
+          width: 44vw;
+          padding: 0px;
+          margin-left: 40px;
+          margin-top: 10px;
+          .d-block.w-100.imgCarrusel {
+            height: 25vh;
+          }
+        }
+        .carousel-item {
+          width: 44vw;
+          padding: 0px;
+          margin-left: 40px;
+          margin-top: 10px;
+          .d-block.w-100.imgCarrusel {
+            height: 25vh;
+          }
         }
       }
     }
   }
   .gribGuantes.row {
-    width: 60vw;
-    height: 90vh;
-    display: flex;
-    background-color: transparent;
-    justify-content: center;
-    align-content: space-around;
-
+    width: 75vw;
+    margin: auto;
     .boxGribProducto.col-lg-4.col-md-4.col-sm-12 {
-      width: 90vw;
-      display: inline-block;
-      .especGribProducto {
-        display: flex;
-        align-content: end;
-        a {
-          color: black;
-          text-decoration: none;
-          background-color: rgb(170, 177, 177);
-          border-radius: 10px;
+      padding: 25px;
+      #guantesCarrusel3.carousel.carousel-dark.slide {
+        .carousel-inner {
+          height: 27vh;
+        }
+
+        .carousel-item.active {
+          width: 44vw;
+          padding: 0px;
+          margin-left: 40px;
+          margin-top: 10px;
+          .d-block.w-100.imgCarrusel {
+            height: 25vh;
+          }
+        }
+        .carousel-item {
+          width: 44vw;
+          padding: 0px;
+          margin-left: 40px;
+          margin-top: 10px;
+          .d-block.w-100.imgCarrusel {
+            height: 25vh;
+          }
+        }
+      }
+      #guantesCarrusel2.carousel.carousel-dark.slide {
+        .carousel-inner {
+          height: 27vh;
+        }
+
+        .carousel-item.active {
+          width: 40vw;
+          padding: 0px;
+          margin-left: 50px;
+          margin-top: 30px;
+          .d-block.w-100.imgCarrusel {
+            height: 20vh;
+          }
+        }
+        .carousel-item {
+          width: 40vw;
+          padding: 0px;
+          margin-left: 50px;
+          margin-top: 30px;
+          .d-block.w-100.imgCarrusel {
+            height: 20vh;
+          }
+        }
+      }
+      #guantesCarrusel1.carousel.carousel-dark.slide {
+        .carousel-inner {
+          height: 27vh;
+        }
+
+        .carousel-item.active {
+          width: 44vw;
+          padding: 0px;
+          margin-left: 40px;
+          margin-top: 10px;
+          .d-block.w-100.imgCarrusel {
+            height: 25vh;
+          }
+        }
+        .carousel-item {
+          width: 44vw;
+          padding: 0px;
+          margin-left: 40px;
+          margin-top: 10px;
+          .d-block.w-100.imgCarrusel {
+            height: 25vh;
+          }
         }
       }
     }

@@ -19,6 +19,7 @@
         display: flex;
         text-decoration: none;
         color: black;
+        font-size: medium;
       }
     }
   }
@@ -30,11 +31,11 @@
     .pFooter {
       color: black;
       margin: 0px;
-      font-size: small;
+      font-size: medium;
     }
     iframe {
-      width: 17vw;
-      height: 17vh;
+      width: 18vw;
+      height: 23vh;
       border-radius: 10px;
     }
   }

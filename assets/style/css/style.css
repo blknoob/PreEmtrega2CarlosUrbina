@@ -108,6 +108,7 @@
   display: flex;
   text-decoration: none;
   color: black;
+  font-size: medium;
 }
 .footer .footerRight {
   display: inline-block;
@@ -117,11 +118,11 @@
 .footer .footerRight .pFooter {
   color: black;
   margin: 0px;
-  font-size: small;
+  font-size: medium;
 }
 .footer .footerRight iframe {
-  width: 17vw;
-  height: 17vh;
+  width: 18vw;
+  height: 23vh;
   border-radius: 10px;
 }
 .footer .footerUnder {
@@ -377,7 +378,7 @@
   gap: 50px;
 }
 .main .videosGiras .videoMotivacion {
-  width: 35vw;
+  width: 37vw;
   padding: 20px;
   box-shadow: 0 0 15px black;
   border-radius: 20px;
@@ -386,138 +387,455 @@
 
 .gribCasco.row {
   width: 80vw;
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  margin: 15px auto;
+  margin: auto;
+}
+.gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 {
+  padding: 40px;
+}
+.gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel3.carousel.carousel-dark.slide .carousel-inner.siceImg {
+  height: 33vh;
   background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px black;
+}
+.gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel3.carousel.carousel-dark.slide .carousel-item.active {
+  width: 20vw;
+  padding: 20px 0px 0px 30px;
+}
+.gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel3.carousel.carousel-dark.slide .d-block.w-100.imgCarrusel {
+  height: 28vh;
+}
+.gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel3.carousel.carousel-dark.slide .carousel-item.siceImg {
+  width: 20vw;
+  padding: 20px 0px 0px 30px;
+}
+.gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel3.carousel.carousel-dark.slide .carousel-item.siceImg .d-block.w-100.imgCarrusel {
+  height: 28vh;
+}
+.gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel2.carousel.carousel-dark.slide .carousel-inner {
+  height: 33vh;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px black;
+}
+.gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel2.carousel.carousel-dark.slide .carousel-item.active {
+  width: 18vw;
+  padding: 20px 0px 0px 30px;
+}
+.gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel2.carousel.carousel-dark.slide .carousel-item.active .d-block.w-100.imgCarrusel {
+  height: 28vh;
+}
+.gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel2.carousel.carousel-dark.slide .carousel-item {
+  width: 18vw;
+  padding: 20px 0px 0px 30px;
+}
+.gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel2.carousel.carousel-dark.slide .carousel-item .d-block.w-100.imgCarrusel {
+  height: 28vh;
+}
+.gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel1.carousel.carousel-dark.slide .carousel-inner {
+  height: 33vh;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px black;
+}
+.gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel1.carousel.carousel-dark.slide .carousel-item.active {
+  width: 18vw;
+  padding: 20px 0px 0px 30px;
+}
+.gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel1.carousel.carousel-dark.slide .carousel-item.active .d-block.w-100.imgCarrusel {
+  height: 28vh;
+}
+.gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel1.carousel.carousel-dark.slide .carousel-item {
+  width: 18vw;
+  padding: 20px 0px 0px 30px;
+}
+.gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel1.carousel.carousel-dark.slide .carousel-item .d-block.w-100.imgCarrusel {
+  height: 28vh;
 }
 .gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto {
-  display: flex;
-  align-content: end;
+  padding: 15px;
 }
-.gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto a {
-  color: black;
+.gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto .descripEquip {
   text-decoration: none;
+  color: black;
+  font-size: medium;
+  text-shadow: 0 0 10px white;
+  font-weight: 700;
 }
 
 .gribLentes.row {
   width: 80vw;
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  margin: 15px auto;
+  margin: auto;
+}
+.gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 {
+  padding: 40px;
+}
+.gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel3.carousel.carousel-dark.slide .carousel-inner {
+  height: 33vh;
   background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px black;
+}
+.gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel3.carousel.carousel-dark.slide .carousel-item.active {
+  width: 20vw;
+  padding: 20px 0px 0px 30px;
+}
+.gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel3.carousel.carousel-dark.slide .carousel-item.active .d-block.w-100.imgCarrusel {
+  height: 28vh;
+}
+.gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel3.carousel.carousel-dark.slide .carousel-item {
+  width: 20vw;
+  padding: 20px 0px 0px 30px;
+}
+.gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel3.carousel.carousel-dark.slide .carousel-item .d-block.w-100.imgCarrusel {
+  height: 28vh;
+}
+.gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel2.carousel.carousel-dark.slide .carousel-inner {
+  height: 33vh;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px black;
+}
+.gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel2.carousel.carousel-dark.slide .carousel-item.active {
+  width: 20vw;
+  padding: 20px 0px 0px 30px;
+}
+.gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel2.carousel.carousel-dark.slide .carousel-item.active .d-block.w-100.imgCarrusel {
+  height: 28vh;
+}
+.gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel2.carousel.carousel-dark.slide .carousel-item {
+  width: 20vw;
+  padding: 20px 0px 0px 30px;
+}
+.gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel2.carousel.carousel-dark.slide .carousel-item .d-block.w-100.imgCarrusel {
+  height: 28vh;
+}
+.gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel1.carousel.carousel-dark.slide .carousel-inner {
+  height: 33vh;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px black;
+}
+.gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel1.carousel.carousel-dark.slide .carousel-item.active {
+  width: 20vw;
+  padding: 20px 0px 0px 30px;
+}
+.gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel1.carousel.carousel-dark.slide .carousel-item.active .d-block.w-100.imgCarrusel {
+  height: 28vh;
+}
+.gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel1.carousel.carousel-dark.slide .carousel-item {
+  width: 20vw;
+  padding: 20px 0px 0px 30px;
+}
+.gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel1.carousel.carousel-dark.slide .carousel-item .d-block.w-100.imgCarrusel {
+  height: 28vh;
 }
 .gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto {
-  display: flex;
-  align-content: end;
+  padding: 15px;
 }
-.gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto a {
-  color: black;
+.gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto .descripEquip {
   text-decoration: none;
+  color: black;
+  font-size: medium;
+  text-shadow: 0 0 10px white;
+  font-weight: 700;
 }
 
 .gribGuantes.row {
   width: 80vw;
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  margin: 15px auto;
+  margin: auto;
+}
+.gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 {
+  padding: 40px;
+}
+.gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel3.carousel.carousel-dark.slide .carousel-inner {
+  height: 33vh;
   background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px black;
+}
+.gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel3.carousel.carousel-dark.slide .carousel-item.active {
+  width: 20vw;
+  padding: 20px 0px 0px 30px;
+}
+.gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel3.carousel.carousel-dark.slide .carousel-item.active .d-block.w-100.imgCarrusel {
+  height: 28vh;
+}
+.gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel3.carousel.carousel-dark.slide .carousel-item {
+  width: 20vw;
+  padding: 20px 0px 0px 30px;
+}
+.gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel3.carousel.carousel-dark.slide .carousel-item .d-block.w-100.imgCarrusel {
+  height: 28vh;
+}
+.gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel2.carousel.carousel-dark.slide .carousel-inner {
+  height: 33vh;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px black;
+}
+.gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel2.carousel.carousel-dark.slide .carousel-item.active {
+  width: 16vw;
+  padding: 20px 0px 0px 30px;
+  margin-left: 30px;
+}
+.gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel2.carousel.carousel-dark.slide .carousel-item.active .d-block.w-100.imgCarrusel {
+  height: 24vh;
+}
+.gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel2.carousel.carousel-dark.slide .carousel-item {
+  width: 16vw;
+  padding: 20px 0px 0px 30px;
+  margin-left: 30px;
+}
+.gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel2.carousel.carousel-dark.slide .carousel-item .d-block.w-100.imgCarrusel {
+  height: 24vh;
+}
+.gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel1.carousel.carousel-dark.slide .carousel-inner {
+  height: 33vh;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px black;
+}
+.gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel1.carousel.carousel-dark.slide .carousel-item.active {
+  width: 20vw;
+  padding: 20px 0px 0px 30px;
+}
+.gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel1.carousel.carousel-dark.slide .carousel-item.active .d-block.w-100.imgCarrusel {
+  height: 28vh;
+}
+.gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel1.carousel.carousel-dark.slide .carousel-item {
+  width: 20vw;
+  padding: 20px 0px 0px 30px;
+}
+.gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel1.carousel.carousel-dark.slide .carousel-item .d-block.w-100.imgCarrusel {
+  height: 28vh;
 }
 .gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto {
-  display: flex;
-  align-content: end;
+  padding: 15px;
 }
-.gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto a {
-  color: black;
+.gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto .descripEquip {
   text-decoration: none;
+  color: black;
+  font-size: medium;
+  text-shadow: 0 0 10px white;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 768px) {
-  .main .h3Main {
-    margin: 20px;
-    text-shadow: 0 0 2px black;
-    background-color: white;
-    padding: 3px;
-    display: inline-block;
-    border-radius: 7px;
-    font-size: medium;
-  }
-  .main .videosGiras.row {
+  .main .videosGiras {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
   }
-  .main .videosGiras.row .videoMotivacion.col-sm-6.col-12 {
-    width: 90vw;
-    padding: 20px;
+  .main .videosGiras .videoMotivacion {
+    width: 85vw;
   }
   .gribCasco.row {
-    width: 60vw;
-    height: 90vh;
-    display: flex;
-    background-color: transparent;
-    justify-content: center;
-    align-content: space-around;
+    width: 75vw;
+    margin: auto;
   }
   .gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 {
-    width: 90vw;
-    display: inline-block;
+    padding: 25px;
   }
-  .gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto {
-    display: inline-block;
-    align-content: end;
+  .gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel3.carousel.carousel-dark.slide .carousel-inner.siceImg {
+    height: 27vh;
   }
-  .gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto a {
-    color: black;
-    text-decoration: none;
-    background-color: rgb(170, 177, 177);
-    border-radius: 10px;
+  .gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel3.carousel.carousel-dark.slide .carousel-item.active {
+    width: 60vw;
+    padding: 0px;
+  }
+  .gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel3.carousel.carousel-dark.slide .d-block.w-100.imgCarrusel {
+    height: 27vh;
+  }
+  .gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel3.carousel.carousel-dark.slide .carousel-item.siceImg {
+    width: 60vw;
+    padding: 0px;
+  }
+  .gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel3.carousel.carousel-dark.slide .carousel-item.siceImg .d-block.w-100.imgCarrusel {
+    height: 27vh;
+  }
+  .gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel2.carousel.carousel-dark.slide .carousel-inner {
+    height: 27vh;
+  }
+  .gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel2.carousel.carousel-dark.slide .carousel-item.active {
+    width: 40vw;
+    padding: 0px;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel2.carousel.carousel-dark.slide .carousel-item.active .d-block.w-100.imgCarrusel {
+    height: 20vh;
+  }
+  .gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel2.carousel.carousel-dark.slide .carousel-item {
+    width: 40vw;
+    padding: 0px;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel2.carousel.carousel-dark.slide .carousel-item .d-block.w-100.imgCarrusel {
+    height: 20vh;
+  }
+  .gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel1.carousel.carousel-dark.slide .carousel-inner {
+    height: 27vh;
+  }
+  .gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel1.carousel.carousel-dark.slide .carousel-item.active {
+    width: 40vw;
+    padding: 0px;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel1.carousel.carousel-dark.slide .carousel-item.active .d-block.w-100.imgCarrusel {
+    height: 20vh;
+  }
+  .gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel1.carousel.carousel-dark.slide .carousel-item {
+    width: 40vw;
+    padding: 0px;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .gribCasco.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #cascoCarrusel1.carousel.carousel-dark.slide .carousel-item .d-block.w-100.imgCarrusel {
+    height: 20vh;
   }
   .gribLentes.row {
-    width: 60vw;
-    height: 90vh;
-    display: flex;
-    background-color: transparent;
-    justify-content: center;
-    align-content: space-around;
+    width: 75vw;
+    margin: auto;
   }
   .gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 {
-    width: 90vw;
-    display: inline-block;
+    padding: 25px;
   }
-  .gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto {
-    display: flex;
-    align-content: end;
+  .gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel3.carousel.carousel-dark.slide .carousel-inner {
+    height: 27vh;
   }
-  .gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto a {
-    color: black;
-    text-decoration: none;
-    background-color: rgb(170, 177, 177);
-    border-radius: 10px;
+  .gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel3.carousel.carousel-dark.slide .carousel-item.active {
+    width: 43vw;
+    padding: 0px;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel3.carousel.carousel-dark.slide .carousel-item.active .d-block.w-100.imgCarrusel {
+    height: 20vh;
+  }
+  .gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel3.carousel.carousel-dark.slide .carousel-item {
+    width: 43vw;
+    padding: 0px;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel3.carousel.carousel-dark.slide .carousel-item .d-block.w-100.imgCarrusel {
+    height: 20vh;
+  }
+  .gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel2.carousel.carousel-dark.slide .carousel-inner {
+    height: 27vh;
+  }
+  .gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel2.carousel.carousel-dark.slide .carousel-item.active {
+    width: 44vw;
+    padding: 0px;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel2.carousel.carousel-dark.slide .carousel-item.active .d-block.w-100.imgCarrusel {
+    height: 25vh;
+  }
+  .gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel2.carousel.carousel-dark.slide .carousel-item {
+    width: 44vw;
+    padding: 0px;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel2.carousel.carousel-dark.slide .carousel-item .d-block.w-100.imgCarrusel {
+    height: 25vh;
+  }
+  .gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel1.carousel.carousel-dark.slide .carousel-inner {
+    height: 27vh;
+  }
+  .gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel1.carousel.carousel-dark.slide .carousel-item.active {
+    width: 44vw;
+    padding: 0px;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel1.carousel.carousel-dark.slide .carousel-item.active .d-block.w-100.imgCarrusel {
+    height: 25vh;
+  }
+  .gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel1.carousel.carousel-dark.slide .carousel-item {
+    width: 44vw;
+    padding: 0px;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .gribLentes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #lentesCarrusel1.carousel.carousel-dark.slide .carousel-item .d-block.w-100.imgCarrusel {
+    height: 25vh;
   }
   .gribGuantes.row {
-    width: 60vw;
-    height: 90vh;
-    display: flex;
-    background-color: transparent;
-    justify-content: center;
-    align-content: space-around;
+    width: 75vw;
+    margin: auto;
   }
   .gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 {
-    width: 90vw;
-    display: inline-block;
+    padding: 25px;
   }
-  .gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto {
-    display: flex;
-    align-content: end;
+  .gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel3.carousel.carousel-dark.slide .carousel-inner {
+    height: 27vh;
   }
-  .gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 .especGribProducto a {
-    color: black;
-    text-decoration: none;
-    background-color: rgb(170, 177, 177);
-    border-radius: 10px;
+  .gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel3.carousel.carousel-dark.slide .carousel-item.active {
+    width: 44vw;
+    padding: 0px;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel3.carousel.carousel-dark.slide .carousel-item.active .d-block.w-100.imgCarrusel {
+    height: 25vh;
+  }
+  .gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel3.carousel.carousel-dark.slide .carousel-item {
+    width: 44vw;
+    padding: 0px;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel3.carousel.carousel-dark.slide .carousel-item .d-block.w-100.imgCarrusel {
+    height: 25vh;
+  }
+  .gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel2.carousel.carousel-dark.slide .carousel-inner {
+    height: 27vh;
+  }
+  .gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel2.carousel.carousel-dark.slide .carousel-item.active {
+    width: 40vw;
+    padding: 0px;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel2.carousel.carousel-dark.slide .carousel-item.active .d-block.w-100.imgCarrusel {
+    height: 20vh;
+  }
+  .gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel2.carousel.carousel-dark.slide .carousel-item {
+    width: 40vw;
+    padding: 0px;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel2.carousel.carousel-dark.slide .carousel-item .d-block.w-100.imgCarrusel {
+    height: 20vh;
+  }
+  .gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel1.carousel.carousel-dark.slide .carousel-inner {
+    height: 27vh;
+  }
+  .gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel1.carousel.carousel-dark.slide .carousel-item.active {
+    width: 44vw;
+    padding: 0px;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel1.carousel.carousel-dark.slide .carousel-item.active .d-block.w-100.imgCarrusel {
+    height: 25vh;
+  }
+  .gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel1.carousel.carousel-dark.slide .carousel-item {
+    width: 44vw;
+    padding: 0px;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .gribGuantes.row .boxGribProducto.col-lg-4.col-md-4.col-sm-12 #guantesCarrusel1.carousel.carousel-dark.slide .carousel-item .d-block.w-100.imgCarrusel {
+    height: 25vh;
   }
 }
 .main .narracionGira {
