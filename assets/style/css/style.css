@@ -284,16 +284,16 @@
   height: max-content;
 }
 .contenedorProductSec .carousel.slide .carousel-inner .carousel-item.active {
-  width: 18vw;
-  height: 38vh;
+  width: 14vw;
+  height: 28vh;
 }
 .contenedorProductSec .carousel.slide .carousel-inner .carousel-item.active .d-block.w-100 {
   border-radius: 15px;
   box-shadow: 0 0 10px white;
 }
 .contenedorProductSec .carousel.slide .carousel-inner .carousel-item {
-  width: 18vw;
-  height: 38vh;
+  width: 14vw;
+  height: 28vh;
 }
 .contenedorProductSec .carousel.slide .carousel-inner .carousel-item .d-block.w-100 {
   border-radius: 15px;
@@ -964,9 +964,10 @@
     grid-template-rows: repeat(12, 1fr);
     grid-template-columns: 1fr;
     grid-template-areas: "box1" "box2" "box3" "box4" "box5" "box6" "box7" "box8" "box9" "box10" "box11" "box12";
-    grid-gap: 60px;
+    grid-gap: 50px;
     align-items: center;
     justify-items: center;
+    margin: 60px;
   }
   .boxImg-1.imgGira {
     grid-area: box1;
@@ -1209,6 +1210,10 @@
   border-radius: 15px;
   box-shadow: 0 0 10px black;
 }
+.tipoBici .form-select-16px.cantidadPinon {
+  margin: 10px;
+  border-radius: 10px;
+}
 .tipoBici .form-select-16px.cantidadPinon option {
   border-radius: 15px;
   box-shadow: 0 0 10px black;
@@ -1233,15 +1238,17 @@
   .main .boxBici {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .main .boxBici .tipoBici {
     display: flex;
     align-items: center;
     padding: 20px 0px 20px 0px;
+    width: 80vw;
   }
   .main .boxBici .tipoBici .imgBiciMain {
-    height: 17vh;
-    width: 38vw;
+    height: 18vh;
+    width: 45vw;
   }
   .main .boxBici .tipoBici .labelElige {
     padding: 0px;
@@ -1251,6 +1258,7 @@
     display: inline-block;
     margin: 0px;
     padding: 0px;
+    margin: 60px;
   }
   .accesoriosBici .boxFrenos {
     display: flex;
@@ -1285,14 +1293,16 @@
     width: 28vw;
     height: 13vh;
   }
+  .accesoriosBici .tipoBici .form-select-16px.cantidadPinon {
+    margin-top: 20px;
+  }
   .accesoriosBici .tipoBici .boton {
     padding: 50px;
   }
+  .accesoriosBici .tipoBici .boton .solicitar {
+    width: 40vw;
+  }
 }
-.form-label {
-  width: 60vw;
-}
-
 .main {
   padding: 20px;
   line-height: var(--separacion-linea-desktop);

@@ -72,8 +72,8 @@
 
     .carousel-inner {
       .carousel-item.active {
-        width: 18vw;
-        height: 38vh;
+        width: 14vw;
+        height: 28vh;
 
         .d-block.w-100 {
           border-radius: 15px;
@@ -81,8 +81,8 @@
         }
       }
       .carousel-item {
-        width: 18vw;
-        height: 38vh;
+        width: 14vw;
+        height: 28vh;
 
         .d-block.w-100 {
           border-radius: 15px;
@@ -94,6 +94,7 @@
 }
 
 @media screen and (max-width: 768px) {
+  
   .productosMain.row {
     margin: 0px;
 

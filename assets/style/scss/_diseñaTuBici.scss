@@ -100,6 +100,8 @@
     box-shadow: 0 0 10px black;
   }
   .form-select-16px.cantidadPinon {
+    margin: 10px;
+    border-radius: 10px;
     option {
       border-radius: 15px;
       box-shadow: 0 0 10px black;
@@ -130,17 +132,20 @@
     .boxBici {
       display: flex;
       flex-direction: column;
+      align-items: center;
       
       
       .tipoBici {
         display: flex;
         align-items: center;
         padding: 20px 0px 20px 0px;
+        width: 80vw;
+        
        
 
         .imgBiciMain {
-          height: 17vh;
-          width: 38vw;
+          height: 18vh;
+          width: 45vw;
         }
         .labelElige {
           padding: 0px;
@@ -154,6 +159,7 @@
     display: inline-block;
     margin: 0px;
     padding: 0px;
+    margin: 60px;
 
     .boxFrenos {
       display: flex;
@@ -193,17 +199,21 @@
         width: 28vw;
         height: 13vh;
       }
+      .labelElige {
+    }
+    .form-select-16px.cantidadPinon {
+      margin-top: 20px;
+      option {
+      }
+    }
 
       .boton {
         padding: 50px;
+        .solicitar{
+          width: 40vw;
+        }
       }
     }
   }
 }
 
-  .h5Main {
-  }
-  .form-label {width: 60vw;
-  }
-  #exampleColorInput.form-control.form-control-color {
-  }
